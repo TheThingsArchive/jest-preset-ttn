@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-ttn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A preset for jest",
   "main": "index.js",
   "license": "MIT",
