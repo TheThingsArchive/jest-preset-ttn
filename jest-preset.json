@@ -1,0 +1,13 @@
+{
+  "testMatch": [
+    "**/*.test.js"
+  ],
+  "transform": {
+    "^.+\\.js$": "<rootDir>/node_modules/jest-preset-ttn/transform.js"
+  },
+  "moduleNameMapper": {
+    "\\.(css|styl|less|sass)$": "<rootDir>/node_modules/jest-preset-ttn/styles.stub.js",
+    "\\.(jpg|jpeg|svg)$": "<rootDir>/node_modules/jest-preset-ttn/file.stub.js",
+    "~/(.*)": "<rootDir>/src/$1"
+  }
+}
