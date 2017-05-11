@@ -5,7 +5,7 @@
   "transform": {
     "^.+\\.js$": "<rootDir>/node_modules/jest-preset-ttn/transform.js",
     "\\.(css|styl|less|sass)$": "<rootDir>/node_modules/jest-preset-ttn/styles.transform.js",
-    "\\.(jpg|jpeg|svg)$": "<rootDir>/node_modules/jest-preset-ttn/files.transform.js"
+    "\\.(jpg|jpeg|svg|png|woff|woff2|ttf|eot|gif|webp)$": "<rootDir>/node_modules/jest-preset-ttn/files.transform.js"
   },
   "moduleNameMapper": {
     "~/(.*)": "<rootDir>/src/$1"
